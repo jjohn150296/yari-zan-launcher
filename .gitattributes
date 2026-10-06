@@ -1,0 +1,17 @@
+*.ts linguist-detectable
+*.yaml linguist-detectable=false
+
+public/** linguist-vendored
+
+dist/* linguist-vendored
+*.tsx linguist-detectable
+
+* text=auto
+*.png binary   
+*.gif binary
+public/index.html linguist-vendored
+
+*.json linguist-detectable=false
+go.sum linguist-generated
+
+# eof 4db8b334
